@@ -3,10 +3,7 @@
 --DataFrames: yelp_business(business_id, name, neighborhood, address, city, state, postal_code, latitude, longitude, stars, review_count, is_open, categories)
 --Key Concepts: ranks, groupby, sort_values, rename, astype
 
-# Import your libraries
 import pandas as pd
-
-# Start writing code
 df = yelp_business
 df['five_stars'] = (df['stars'] == 5).astype(int)
 top5_states = (
