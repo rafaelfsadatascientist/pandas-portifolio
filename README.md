@@ -1,7 +1,5 @@
 # pandas-portifolio
-
-This portfolio showcases a collection of pandas queries developed by me, based on real-world business problems sourced from StrataScratch.
-
+This repository contains a collection of pandas solutions to real-world business problems from StrataScratch.
 ## Structure 
 Each pandas file includes:
 - The original problem source.
