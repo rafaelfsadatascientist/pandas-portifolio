@@ -1,7 +1,7 @@
---StrataScratch: Election Results
---Level: Medium
---DataFrames: voting_results(voter,candidate)
---Key Concepts: ranks, groupby, sort_values, transform
+#StrataScratch: Election Results
+#Level: Medium
+#DataFrames: voting_results(voter,candidate)
+#Key Concepts: ranks, groupby, sort_values, transform
 
 import pandas as pd
 

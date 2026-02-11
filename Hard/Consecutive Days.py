@@ -1,7 +1,7 @@
---StrataScratch: Consecutive Days
---Level: Hard
---DataFrames: sf_events(record_date,account_id,user_id)
---Key Concepts: shift, drop_duplicates, filtering, datetime arithmetic
+#StrataScratch: Consecutive Days
+#Level: Hard
+#DataFrames: sf_events(record_date,account_id,user_id)
+#Key Concepts: shift, drop_duplicates, filtering, datetime arithmetic
 
 # If a user was active for more than 3 consecutive days,
 # then in particular the user was active for at least 3 consecutive days.

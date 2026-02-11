@@ -1,7 +1,7 @@
---StrataScratch: Top 5 States With 5 Star Businesses
---Level: Hard
---DataFrames: yelp_business(business_id, name, neighborhood, address, city, state, postal_code, latitude, longitude, stars, review_count, is_open, categories)
---Key Concepts: ranks, groupby, sort_values, rename, astype
+#StrataScratch: Top 5 States With 5 Star Businesses
+#Level: Hard
+#DataFrames: yelp_business(business_id, name, neighborhood, address, city, state, postal_code, latitude, longitude, stars, review_count, is_open, categories)
+#Key Concepts: ranks, groupby, sort_values, rename, astype
 
 import pandas as pd
 df = yelp_business
