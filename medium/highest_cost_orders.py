@@ -1,8 +1,7 @@
---StrataScratch: Highest Cost Orders
--- Dialect: PostgreSQL
---Level: Medium
---Tables: customers(address,city,first_name,id,last_name,phone_number) & orders(cust_id,id,order_date,order_details,total_order_cost)
---Key Concepts: merges, groupby, sort_values, ranks, between
+##StrataScratch: Highest Cost Orders
+##Level: Medium
+##DataFrames: customers(address,city,first_name,id,last_name,phone_number) & orders(cust_id,id,order_date,order_details,total_order_cost)
+##Key Concepts: merges, groupby, sort_values, ranks, between
 
 import pandas as pd
 
